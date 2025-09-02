@@ -6,8 +6,8 @@ class Solution(object):
         """
         if x < 0:
             return False
-        newstring = str(x)
-        reversedstring = newstring[::-1]
+        Newstring = str(x)
+        reversedstring = Newstring[::-1]
         
-        return newstring == reversedstring
+        return Newstring == reversedstring
         
