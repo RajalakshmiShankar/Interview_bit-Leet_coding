@@ -5,8 +5,8 @@ class Solution(object):
         :rtype: bool
         """
         seen= set()
-        for i in nums:
-            if i in seen:
+        for j in nums:
+            if j in seen:
                 return True
-            seen.add(i)
+            seen.add(j)
         return False
