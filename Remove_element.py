@@ -6,8 +6,8 @@ class Solution(object):
         :rtype: int
         """
         k=0
-        for i in range(len(nums)):
-            if nums[i] != val:
-                nums[k]=nums[i]
+        for j in range(len(nums)):
+            if nums[j] != val:
+                nums[k]=nums[j]
                 k+=1
         return k
